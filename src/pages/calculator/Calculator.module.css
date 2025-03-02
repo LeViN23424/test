@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+.inputs {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 999px;  
+    min-width: 320px;
+    padding: 10px;
+    background: var(--white);
+}
+
+
+.rollParamWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.arrow {
+    align-self: flex-end;
+    text-align: end;
+}
+.submitBtn {
+    padding:  50px 40px;
+}
+.addButton {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.addButton svg{
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+}
+.addButtonWrapper:hover svg{
+    opacity:1;
+
+}
+@media screen and (max-width:800px) {
+    .rollParamWrapper {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:556px) {
+    .inputsWrapper {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,  // Включение поддержки импорта по умолчанию
+    "esModuleInterop": true,  // Чтобы поддерживать импорты для CommonJS
+    "strict": true,  // Включение строгого режима
+    "skipLibCheck": true  // Пропуск проверки типов в библиотеках
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

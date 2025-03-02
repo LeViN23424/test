@@ -1,0 +1,5 @@
+.wrapper {
+	width:100%;
+	background: var(--primary-background);
+	padding: 50px 0;
+}

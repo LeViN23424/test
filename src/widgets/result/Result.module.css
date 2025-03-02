@@ -1,0 +1,59 @@
+.wrapper {
+    padding: 50px 20px;
+}
+.resultsWrapper {
+    padding: 40px;
+    background: var(--purple);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.resultDescription {
+    color:  rgba(255, 255, 255, 0.64);
+}
+.resulTitle {
+    font-size: var(--result-title);
+    font-family: var(--Inter-family);
+    color: var(--white);
+}
+.buttonWrapper {
+    display: flex;
+    gap:20px
+}
+.button {
+    background:  var(--white);
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttonGreen {
+    color: rgba(90, 205, 102, 1);
+}
+.buttonPurple{
+    color: var(--purple);
+}
+
+.resultsInfo {
+    display: flex;
+    gap:20px
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+@media screen and (max-width:556px) {
+    .resultsInfo  ,  .buttonWrapper {
+        flex-direction: column;
+    }
+    .resultsInfo ,.result{
+        gap:0px
+    }
+
+
+}
+

@@ -1,0 +1,25 @@
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.cardTitle {
+    font-weight: var(--title-weight);
+    font-size: var(--card-title-size);
+}
+.inputLabel {
+    display: flex;
+    flex-direction: column;
+}
+.inputWrapper  {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:800px) {
+    .inputLabel input  {
+        width: 70% !important;
+    }
+}

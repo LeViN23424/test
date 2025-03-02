@@ -1,0 +1,21 @@
+.popup {
+    min-width:304px;
+    max-width: 550px;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.description {
+    max-width: 636px;
+    min-width: 270px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+

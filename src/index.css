@@ -1,0 +1,53 @@
+
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary-background: rgba(245, 247, 249, 1); 
+  --white: rgba(255, 255, 255, 1); 
+  --purple :rgba(82, 110, 255, 1);
+  --black:rgba(17, 17, 17, 0.8);
+  --black-input:rgba(17, 17, 17, 0.32);
+  --label-black:rgba(17, 17, 17, 0.83);
+  --title-weight :600;
+  --medium-weight :500;
+  --plain-weight :400;
+  --title-size : 33px;
+  --card-title-size : 20px;
+  --result-title : 24px;
+  --plain-size :16px;
+  --Roboto-family: "Roboto", serif;
+  --Inter-family:"Inter", serif;
+  font-family: var(--Roboto-family);
+  font-size: var(--plain-size);
+  font-weight: var(--plain-weight);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+button,a {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+@media screen and (max-width:800px) {
+  :root {
+   --title-size : 24px;
+
+  } 
+}

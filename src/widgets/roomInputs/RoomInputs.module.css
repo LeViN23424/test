@@ -1,0 +1,28 @@
+
+.inputsWrapper {
+    display: flex;
+    width: 100%;
+    gap:50px;
+    margin-top: 20px;
+}
+.label{
+    width: 100%;
+    position: relative;
+}
+.error {
+    bottom: -30%;
+    left: 0;
+    position: absolute;
+    color: red;
+}
+.labelParagraph {
+    color: var(--label-black);
+}
+
+@media screen and (max-width:556px) {
+    .inputsWrapper {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+}

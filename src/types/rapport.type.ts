@@ -1,0 +1,1 @@
+export type rapportParameterType = '0'|'0.32м'|'0.64м'

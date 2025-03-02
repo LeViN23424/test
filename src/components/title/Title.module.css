@@ -1,0 +1,6 @@
+.title {
+    font-weight: var(--title-weight);
+    font-size: var(--title-size);
+    font-family: var(--Inter-family);
+    color: var(--black);
+}
